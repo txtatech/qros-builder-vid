@@ -21,7 +21,7 @@ python3 qros-ii-step-2_qemu.py
 
 
 ### NOTES:
-The README has the wrong ffmpeg command. The coorect command is:
+The README has the wrong ffmpeg command. The correct command is:
 
 ffmpeg -framerate 30 -i qr_%09d.png -vf "scale=730:730,setsar=1" -an -c:v libx264 -pix_fmt yuv420p output.mp4
 
