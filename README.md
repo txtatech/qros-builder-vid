@@ -20,7 +20,10 @@ or to build the img file and run qemu afterward
 python3 qros-ii-step-2_qemu.py
 
 
-NOTES:
+### NOTES:
+The README has the wrong ffmpeg command. The coorect command is:
+
+ffmpeg -framerate 30 -i qr_%09d.png -vf "scale=730:730,setsar=1" -an -c:v libx264 -pix_fmt yuv420p output.mp4
 
 Good for testing from terminal:
 
