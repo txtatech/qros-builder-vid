@@ -31,4 +31,4 @@ qemu_command = ["qemu-system-i386", "-m", "512", "-boot", "a", "-fda", img_file_
 
 In the qros-ii-step-1.py file the chunk_size=376 must always be divisible by four or it will cause gzip to error during decompression.
 
-![Example-1](https://github.com/txtatech/qros-builder/blob/main/qros-builder-vid/examples/qros-builder-example-1.png)
+![Example-1](https://github.com/txtatech/qros-builder-vid/blob/main/qros-builder-vid/examples/Example-1.png)
