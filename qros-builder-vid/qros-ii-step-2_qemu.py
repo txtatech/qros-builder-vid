@@ -17,7 +17,7 @@ def launch_qemu(img_file_path):
     qemu_process.wait()
 
 # Open the video capture
-video_capture = cv2.VideoCapture('qr-test.mkv')
+video_capture = cv2.VideoCapture('qr-test.mp4')
 
 # Initialize an empty list to hold the data from each QR code in the video
 data_chunks = []
