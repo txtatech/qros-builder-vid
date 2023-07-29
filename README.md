@@ -21,6 +21,11 @@ or to build the .img file and run qemu afterward
 
 python3 qros-ii-step-2_qemu.py
 
+Optional:
+
+Rebuild qr code index into a .img file.
+
+python3 qros-ii-step-3_qr_to_img.py
 
 ### NOTES:
 
