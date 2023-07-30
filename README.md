@@ -5,7 +5,7 @@ This is a video version fork of: https://github.com/txtatech/qros-builder
 
 # Note: 
 
-There is now a standalone script named 'qros-builder-frosty' that reads the .img file contents, creates the .png qr codes with gzip compression and base64 encoding, then it generates a video file from the .png files which it later decodes, removes the base64 and decompresses the data back into an .img file.
+There is now a standalone script named 'qros-builder' that reads the .img file contents, creates the .png qr codes with gzip compression and base64 encoding, then it generates a video file from the .png files which it later decodes, removes the base64 and decompresses the data back into an .img file.
 
 It can be found here: https://github.com/txtatech/qros-builder-vid/tree/main/qros-builder-frosty
 
